@@ -1,5 +1,12 @@
 {
   "project": "remixDefault",
   "version": "1.5.1",
-  "IDE": "remix.ethereum.org"
+  "IDE": "remix.ethereum.org",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0"
+  },
+  "devDependencies": {
+    "hardhat": "^2.22.0"
+  }
+
 }

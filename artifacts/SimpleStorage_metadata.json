@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.19+commit.7dd6d404"
+		"version": "0.8.24+commit.e11b9ed9"
 	},
 	"language": "Solidity",
 	"output": {
@@ -24,27 +24,14 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "favoriteNumber",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
-				"name": "favoriteNumberList",
+				"name": "nameToFavoriteNumber",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -81,17 +68,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "person",
+				"name": "retrieve",
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "favoriteNumber",
+						"name": "",
 						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -126,7 +108,7 @@
 		"compilationTarget": {
 			"contracts/SimpleStorage.sol": "SimpleStorage"
 		},
-		"evmVersion": "paris",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -139,11 +121,11 @@
 	},
 	"sources": {
 		"contracts/SimpleStorage.sol": {
-			"keccak256": "0x8441ae16ba126dfef9a4ead5c6b8e3270a2dbd53879b89049c6b0f6d179b2ad7",
+			"keccak256": "0x70f49152dc089138afb5000a4626f242ee174a589706e3e7738d44be211281b3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://58e692a6f3526eb60344b16b348de47e79e577774c04ec92d95f3738eb2d5fab",
-				"dweb:/ipfs/QmUrFsgRwoCLa1k6jZfmoxG71upKTcKfVxiyvPsBYuRFKT"
+				"bzz-raw://07fdf5288d84b597b0f326b9905a7c478afe47a5db64fa7264bac731759cfc14",
+				"dweb:/ipfs/QmekdaK5HRWmo5Sn5qiSgCfqUKtuwmoVUMmVh9nznZJRKu"
 			]
 		}
 	},
